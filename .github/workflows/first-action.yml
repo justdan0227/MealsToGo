@@ -4,9 +4,8 @@ jobs:
   first_job:
     runs-on: macos-12
     steps:
-      - name: Print greeting
-        run: echo "Hello World!"
-      - name: Print ending
-        run: echo "Ok we are all done!"
-      - name: Env Listing
-        run: env
+      - name: Print All
+        run: |
+          echo "Hello World! All In One"
+          echo "Ok we are all done!"
+          env
