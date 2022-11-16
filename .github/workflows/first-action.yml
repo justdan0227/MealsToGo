@@ -8,3 +8,5 @@ jobs:
         run: echo "Hello World!"
       - name: Print ending
         run: echo "Ok we are all done!"
+      - name: Env Listing
+        run: env
